@@ -3,6 +3,10 @@ $(document).ready(function() {
   var danhSachNguoiDung = new DanhSachNguoiDung();
   var validation = new Validation();
 
+  function themnguoidung(){
+    console.log("asdasdasd");
+  }
+
   //Lấy giữ liệu từ localStorage khi load lại trang
   layLocalStorage();
 
